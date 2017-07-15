@@ -1,0 +1,202 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+}
+
+.contenedor{
+    height: 100%;
+    width: 100%;
+}
+
+#cabeza{
+    background-image: url(banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    height: 28%;
+    width: 100%;
+}
+
+.cuerpo{
+    height: 72%;
+    width: 100%;
+}
+
+.publicidad{
+    width: 15%;
+    height: 100%;
+    float: left;
+    background: rgba(247,247,247,1);
+}
+
+
+#P1{
+    text-align: center;
+}
+
+#P2{
+    background-image: url(Bungou/bungou.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+#P3{
+    background-image: url(ToLove/ToLove.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 14% 0% 0% 5%;
+
+}
+#P4{
+    background-image: url(Gekijouban/Gekijouban%20.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 5% 0% 0% 5%;
+
+}
+
+#P5{
+    background-image: url(Bungou/bungou.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 8% 0% 0% 5%;
+}
+
+#P2, #P3, #P4, #P5{
+    width: 100%;
+    height: 24%;
+    border-top: black solid 1px;
+}
+
+#contp{
+    background: rgba(35,35,34,0.8);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+#contp:hover{
+    opacity: 1;
+}
+
+/*#oculta{
+    width: 100%;
+    height: 100%;
+    margin: 0% 0% 0% -50%;
+}*/
+
+#menu{
+    width: 85%;
+    height: 4.7%;
+    display: flex;
+    background: rgba(247,247,247,1);
+    border-bottom: solid 1px;
+
+}
+
+#cuerpecito{
+    width: 85%;
+    height: 95.3%;
+    background: rgba(247,247,247,1);
+    float: right;
+    overflow: scroll;
+    overflow-y:visible;
+    overflow-x:hidden;
+    border-left: solid 1px;
+}
+
+#menu1{
+    
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+    margin:0% 5% 0% 5%;
+    display: flex;
+    align-content: center;
+    border-right: solid 1px;
+}
+
+#menu2{
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+    margin:0% 5% 0% 5%;
+    display: flex;
+    border-right: solid 1px;
+}
+
+#menu3{
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+    margin:0% 5% 0% 5%;
+    display: flex;
+    border-right: solid 1px;
+}
+
+#menu4{
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+    margin:0% 5% 0% 5%;
+    display: flex;
+    border-right: none hidden;
+}
+
+#menu1 a{
+    text-decoration: none;
+    color: black;
+    flex: 1;  
+    padding: 2% 0% 0% 0%;
+}
+
+#menu1 a:hover{
+    background: black;
+    color: white;
+    
+}
+
+#menu2 a{
+    text-decoration: none;
+    color: black;
+    flex: 1;
+    padding: 2% 0% 0% 0%;
+}
+
+#menu2 a:hover{
+    background: black;
+    color: white; 
+}
+
+
+#menu3 a{
+    text-decoration: none;
+    color: black;
+    flex: 1;
+    padding: 2% 0% 0% 0%;
+}
+
+#menu3 a:hover{
+    background: black;
+    color: white;
+    
+}
+
+#menu4 a{
+    text-decoration: none;
+    color: black;
+    flex: 1;
+    padding: 2% 0% 0% 0%;
+}
+
+#menu4 a:hover{
+    background: black;
+    color: white;
+    
