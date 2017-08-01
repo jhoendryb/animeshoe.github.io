@@ -33,170 +33,247 @@ body,html{
     width: 15%;
     height: 100%;
     float: left;
-    background: rgba(247,247,247,1);
+    background: black;
 }
 
+
+#P1, #P2,#P3,#P4,#P5{
+    
+    width: 100%;
+    height: 11.1%;
+    border: solid;
+    text-align: center;
+}
+
+#P2 p,#P3 p,#P4 p,#P5 p{
+    color: white;
+}
+
+#P1 a,#P2 a,#P3 a,#P4 a,#P5 a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    min-height: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 #P1{
+    padding: 7% 0% 0% 0%;
+}
+
+#P2:hover a ,#P3:hover a,#P4:hover a,#P5:hover a{
+    transition: 1s all;
+    background-color: white;
+    color: black;
+    /*font-size: 160%;*/
+}
+
+#P1:hover a{
+    transition: 1s all;
+    background-color: white;
+    color: black;
+    font-size: 160%;
+}
+
+#P6,#P7,#P8,#P9,#P10{
+    width: 100%;
+    height: 11.1%;
+    border: solid;
     text-align: center;
 }
 
-#P2{
-    background-image: url(Bungou/bungou.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-
-}
-#P3{
-    background-image: url(ToLove/ToLove.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    padding: 14% 0% 0% 5%;
-
-}
-#P4{
-    background-image: url(Gekijouban/Gekijouban%20.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    padding: 5% 0% 0% 5%;
-
-}
-
-#P5{
-    background-image: url(Bungou/bungou.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    padding: 8% 0% 0% 5%;
-}
-
-#P2, #P3, #P4, #P5{
-    width: 100%;
-    height: 24%;
-    border-top: black solid 1px;
-}
-
-#contp{
-    background: rgba(35,35,34,0.8);
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-}
-
-#contp:hover{
-    opacity: 1;
-}
-
-/*#oculta{
-    width: 100%;
-    height: 100%;
-    margin: 0% 0% 0% -50%;
-}*/
-
-#menu{
-    width: 85%;
-    height: 4.7%;
+#P6 a,#P7 a,#P8 a,#P9 a,#P10 a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    min-height: 65%;
     display: flex;
-    background: rgba(247,247,247,1);
-    border-bottom: solid 1px;
-
+    justify-content: center;
+    align-items: center;
 }
 
+#P6 p,#P7 p,#P8 p,#P9 p,#P10 p{
+    color: white;
+}
+
+#P6:hover a,#P7:hover a,#P8:hover a,#P9:hover a,#P10:hover a{
+    transition: 1s all;
+    background-color: white;
+    color: black;
+    /*font-size: 160%;*/
+}
 #cuerpecito{
+    padding: 2%;
     width: 85%;
-    height: 95.3%;
+    height: 100%;
     background: rgba(247,247,247,1);
     float: right;
-    overflow: scroll;
-    overflow-y:visible;
-    overflow-x:hidden;
-    border-left: solid 1px;
 }
 
-#menu1{
-    
-    justify-content: center;
-    text-align: center;
-    flex: 1;
-    margin:0% 5% 0% 5%;
-    display: flex;
-    align-content: center;
-    border-right: solid 1px;
-}
+/*---------------------------------------bongou------------------------*/
 
-#menu2{
-    justify-content: center;
-    text-align: center;
-    flex: 1;
-    margin:0% 5% 0% 5%;
-    display: flex;
-    border-right: solid 1px;
-}
-
-#menu3{
-    justify-content: center;
-    text-align: center;
-    flex: 1;
-    margin:0% 5% 0% 5%;
-    display: flex;
-    border-right: solid 1px;
-}
-
-#menu4{
-    justify-content: center;
-    text-align: center;
-    flex: 1;
-    margin:0% 5% 0% 5%;
-    display: flex;
-    border-right: none hidden;
-}
-
-#menu1 a{
-    text-decoration: none;
-    color: black;
-    flex: 1;  
-    padding: 2% 0% 0% 0%;
-}
-
-#menu1 a:hover{
-    background: black;
-    color: white;
+.conten{
+    width: 100%;
+    height: 100%;
     
 }
 
-#menu2 a{
-    text-decoration: none;
+#caja1{
+    width: 40%;
+    height: 60%;
+    background-image: url(Bungou/bungou.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    float: left;
+    border: solid;
+}
+#caja2{
+    width: 60%;
+    height: 60%;
+    align-items: center;
+    float: right;
     color: black;
-    flex: 1;
-    padding: 2% 0% 0% 0%;
+    border: solid;
 }
-
-#menu2 a:hover{
-    background: black;
-    color: white; 
-}
-
-
-#menu3 a{
-    text-decoration: none;
+#caja3{
+    width: 100%;
+    height: 40%;
+    align-items: center;
     color: black;
-    flex: 1;
-    padding: 2% 0% 0% 0%;
+    float: right;
+    border: solid;
 }
+/*---------------------------------------toloveru------------------------*/
 
-#menu3 a:hover{
-    background: black;
-    color: white;
+.conten1{
+    width: 100%;
+    height: 100%;
     
 }
 
-#menu4 a{
-    text-decoration: none;
+#caja11{
+    width: 40%;
+    height: 60%;
+    background-image: url(ToLoveru/ToLove.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    float: left;
+    border: solid;
+}
+#caja21{
+    width: 60%;
+    height: 60%;
+    align-items: center;
+    float: right;
     color: black;
-    flex: 1;
-    padding: 2% 0% 0% 0%;
+    border: solid;
+}
+#caja31{
+    width: 100%;
+    height: 40%;
+    align-items: center;
+    color: black;
+    float: right;
+    border: solid;
+}
+/*---------------------------------------hajimete------------------------*/
+
+.conten2{
+    width: 100%;
+    height: 100%;
+    
 }
 
-#menu4 a:hover{
-    background: black;
-    color: white;
+#caja12{
+    width: 40%;
+    height: 60%;
+    background-image: url(hajimete/hajimete.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    float: left;
+    border: solid;
+}
+#caja22{
+    width: 60%;
+    height: 60%;
+    align-items: center;
+    float: right;
+    color: black;
+    border: solid;
+}
+#caja32{
+    width: 100%;
+    height: 40%;
+    align-items: center;
+    color: black;
+    float: right;
+    border: solid;
+}
+/*---------------------------------------eldlive------------------------*/
+
+.conten3{
+    width: 100%;
+    height: 100%;
     
+}
+
+#caja13{
+    width: 40%;
+    height: 60%;
+    background-image: url(eldlive/eldlive.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    float: left;
+    border: solid;
+}
+#caja23{
+    width: 60%;
+    height: 60%;
+    align-items: center;
+    float: right;
+    color: black;
+    border: solid;
+}
+#caja33{
+    width: 100%;
+    height: 40%;
+    align-items: center;
+    color: black;
+    float: right;
+    border: solid;
+}
+/*---------------------------------------Hitorijime My Hero------------------------*/
+
+.conten4{
+    width: 100%;
+    height: 100%;
+    
+}
+
+#caja14{
+    width: 40%;
+    height: 60%;
+    background-image: url(eldlive/eldlive.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    float: left;
+    border: solid;
+}
+#caja24{
+    width: 60%;
+    height: 60%;
+    align-items: center;
+    float: right;
+    color: black;
+    border: solid;
+}
+#caja3{
+    width: 100%;
+    height: 40%;
+    align-items: center;
+    color: black;
+    float: right;
+    border: solid;
+}
