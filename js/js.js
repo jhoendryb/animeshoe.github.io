@@ -1,5 +1,16 @@
 $(document).ready(function(){
    
+    $("#primero1").click(function(){
+  		$("#P6 a").animate({paddingLeft:"0px", paddingRight:"0px"});
+        $("#P5 a").animate({paddingLeft:"0px", paddingRight:"0px"});
+        $("#P4 a").animate({paddingLeft:"0px", paddingRight:"0px"});
+  		$("#P3 a").animate({paddingLeft:"0px", paddingRight:"0px"});
+        $("#P2 a").animate({paddingLeft:"0px", paddingRight:"0px"});
+    });
+    $('#primero1').click(function(){
+        $("#cuerpecito").load('inicio.html section.inicio');
+    });
+    
     /*---------------------Primer anime-------------------------*/
     $("#primero").click(function(){
   		$("#P2 a").animate({paddingLeft:"90px", paddingRight:"10px"});
